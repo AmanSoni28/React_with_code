@@ -8,7 +8,7 @@
 3.when we create new file try to make name start fron Capital later, like : Aman.jsx,  (this is not neccesary).
 4.new cereate file extantion => .jsx (like: Aman.jsx, not allow Aman.js).
 5.React create its oun DOM (ReactDOM) and 'createRoot()' is the method of ReactDOM
-6.createRoot()=> create a HTML root, wher we passed Argument.
+6.createRoot()=> is a function that creates a root container for rendering React components within a browser DOM node
 7.createRoot(document.getElementById('root'))=> here we passed argumant 'document.getElementById('root')'
 
 8. createRoot(document.getElementById('root')).render(
