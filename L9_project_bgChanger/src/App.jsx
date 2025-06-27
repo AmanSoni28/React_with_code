@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <div className="w-full h-screen " style={{backgroundColor: color}}>
-
+      <p className=" fixed bottom-60 text-4xl font-bold flex justify-center inset-x-0 ">Click the button to change background color</p>
      <div className="fixed bottom-30 flex flex-wrap justify-center inset-x-0 ">
       <div className="flex flex-wrap justify-center bg-white  rounded-3xl gap-3 h-15 shadow-lg">
         <button onClick={()=>setColor("red")} className="bg-red-600 w-25 text-center rounded-3xl m-1 border-4 shawor-lg font-bold ">Red</button>
@@ -31,3 +31,5 @@ export default App
 // inset-x-0:use to set position from left and right equal to 0;
 //h-screen:to set the height of viewport
 //inline CSS writen: style{{}};
+
+//note: After this Lecture-9 see -> useMemo -> useCallback -> useEffect -> useRef -> Lecture-10

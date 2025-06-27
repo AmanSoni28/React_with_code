@@ -30,8 +30,7 @@ function App() {
 
   function App() {
      
-    let [DefaultLike,setDefaultLike]=useState(15)        //useState is a Hook in React that allows functional components to store and manage state (data that can change over time). it is return two array values, a variable and a function which is manage the variable
-                                                         //here 'DefaultLike' is variable and 'setDefaultLike' is method(function) which is responsible to update 'DefaultLike' variable
+    let [DefaultLike,setDefaultLike]=useState(15)         //here 'DefaultLike' is variable and 'setDefaultLike' is method(function) which is responsible to update 'DefaultLike' variable
      let like=()=>{
       if(DefaultLike<20)
        setDefaultLike(DefaultLike+1)
@@ -68,7 +67,7 @@ function App() {
 
 export default App
 
-
+//useState is a Hook in React that allows functional components to store and manage state (data that can change over time) and update the user interface when state changes. it is return two array values, a variable and a function which is manage the variable
 // Note : At a same time we can easily change the State in multiple placese
 //onClick Attribute take a function, when button click execute the function
 
